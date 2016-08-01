@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mdb/electron-app-testing.svg?branch=master)](https://travis-ci.org/mdb/electron-app-testing)
+
 # electron-app-testing
 
 A simple reference application demonstrating how to execute [spectron](http://electron.atom.io/spectron) functional
