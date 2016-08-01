@@ -2,8 +2,12 @@ var Application = require('spectron').Application,
     os = require('os'),
     assert = require('assert'),
     pry = require('pryjs'),
+    executables = {
+      linux: 'HelloWorld',
+      darwin: 'HelloWorld.app/Contents/MacOS/HelloWorld'
+    },
     app = new Application({
-      path: `${__dirname}/../build/HelloWorld-${os.platform()}-${os.arch()}/HelloWorld.app/Contents/MacOS/HelloWorld`
+      path: `${__dirname}/../build/HelloWorld-${os.platform()}-${os.arch()}/${executables[os.platform()]}`
     });
 
 app.start().then(function() {
