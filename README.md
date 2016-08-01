@@ -5,6 +5,9 @@
 A simple reference application demonstrating how to execute [spectron](http://electron.atom.io/spectron) functional
 tests against an [electron](http://electron.atom.io) application build.
 
+`electron-app-testing` also demonstrates a technique for [TravisCI CI configuration](https://github.com/mdb/electron-app-testing/blob/master/.travis.yml)
+that exercises build/test functionality on both MacOS and Linux.
+
 ## Run the application
 
 ```
