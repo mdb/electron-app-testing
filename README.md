@@ -1,4 +1,4 @@
-# electron-testing-app
+# electron-app-testing
 
 A simple reference application demonstrating how to execute [spectron](http://electron.atom.io/spectron) functional
 tests against an [electron](http://electron.atom.io) application build.
